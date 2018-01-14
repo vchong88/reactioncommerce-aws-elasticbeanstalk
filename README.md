@@ -17,7 +17,7 @@ The repo files have changed slightly, some files have been added that aren't des
 - For custom deployments, change FROM yourdockeraccount/yourdockerimage:yourtag
 ##### Dockerfile.aws.json
 - For custom deployments, change 'Name'field to yourdockeraccount/yourdockerimage:yourtag
-##### .ebextensions/10-nginx-setup.config
+##### .ebextensions/01-nginx-setup.config
 - Replace all occurences of yourdomain.com with your domain
 
 ##### .ebextensions/02-alb-secure-listener.config
